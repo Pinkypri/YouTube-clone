@@ -1,0 +1,27 @@
+.subscription{
+    display:flex;
+    align-items: center;
+    color: white;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0;
+    position: relative;
+    
+}
+.subscription:hover{
+    cursor: pointer;
+
+    background:rgba(128, 128, 128, 0.61);
+}
+.avatar{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(99, 96, 96);
+}
+
+.Add{
+    position:absolute;
+    right: 5px;
+    
+}

@@ -1,0 +1,56 @@
+.image{
+    width:100%;
+   
+}
+.container{
+    color: white;
+    width: 300px;
+     display: flex;
+     flex-direction:column;
+
+}
+.container:hover{
+    cursor: pointer;
+}
+.title{
+    display: flex;
+    align-items:center;
+    margin: 5px 10px;
+}
+.title>p{
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+   
+}
+.views{
+    display: flex;
+    align-items: center;
+    color:rgba(211, 211, 211, 0.726);
+    gap: 2px;
+}
+.date>p{
+    color:rgba(211, 211, 211, 0.726);
+    font-size:medium;
+    transform: translateX(60px);
+}
+.views>p{
+    color:rgba(211, 211, 211, 0.726);
+    font-size:medium;
+    transform: translateX(60px);
+}
+
+.add{
+    font-size:6px!important;
+    transform: translateX(60px);
+}
+.time{
+    color: white;
+    font-size: 12px;
+    background:rgb(0, 0, 0);
+    position:absolute;
+  
+}
+.date{
+    margin-bottom: 10px;
+}

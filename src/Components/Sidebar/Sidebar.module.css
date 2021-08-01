@@ -1,0 +1,58 @@
+.subcription{
+    color: grey;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+.sidebar{
+    background-color: rgb(31, 29, 29);
+    padding: 20px;
+    width: 200px;   
+}
+
+.Add{
+    width: 10px !important;
+    height: 10px !important;
+    color: rgb(0, 140, 255) !important;
+}
+.expand{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.expand>p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.showmore{
+    color: grey;
+    margin-top: 5px;
+}
+
+.sidebarmore{
+    color: grey;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.sidebar_info{
+    color: grey;
+    margin-bottom: 50px;
+    font-size: 13px;
+}
+.sidebar_info>p{
+   font-weight: 500;
+   cursor: pointer;
+}
+.sidebar_info>span{
+    cursor: pointer;
+}
+.line{
+    border-bottom: 1px solid rgb(56, 54, 54);
+   width: 120%!important;
+   margin-left:-20px !important;
+   margin: 0;
+   padding: 0;
+}
